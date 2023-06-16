@@ -1,0 +1,73 @@
+.body {
+    background-position: center;
+}
+
+.form-group {
+    padding: 5px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: #201f24;
+}
+
+.contacto {
+    max-width: 35em;
+    padding: 1.9em;
+    margin: 0 auto;
+    background-color: #201f24;
+    font-weight: bold;
+    border-radius: 15px;
+    box-shadow: inset 1px 1px 1px 1px;
+    color:#ffffff
+}
+
+.container-form {
+    margin: 0px;
+    background-color: rgb(240, 239, 239);
+}
+
+.contacto .intro {
+    font-size: 25px;
+    color:#ffffff;
+    background-color: #201f24;
+}
+
+
+
+.botones-form {
+    text-align: center;
+    padding: 30px;
+    background-color: #201f24;
+    
+}
+
+.boton-form-enviar {
+    background-color:#215f02;
+    color: white;
+    width: 180px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+.boton-form-cancelar {
+    background-color:#d61313;
+    color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+.boton-form-reset {
+    background-color:#aaaaaa;
+    width: 100px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+.contactanos {
+    background-color: #201f24;
+    text-align: center;
+    padding: 20px;
+    margin:0%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}

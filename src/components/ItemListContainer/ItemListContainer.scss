@@ -1,0 +1,15 @@
+/* ITEM LIST CONTAINER */
+.container img{
+  width: 150px;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    padding-left: 1px;    
+    padding-right: 1px;  
+    padding-bottom: 70px;
+    justify-content: space-between;
+    text-align: center;
+  }

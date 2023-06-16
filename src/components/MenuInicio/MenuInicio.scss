@@ -1,0 +1,60 @@
+.body {
+    background-position: center;
+}
+
+.menuinicio .intro {
+    text-align: center;
+    color:#ffffff;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.menuinicio {
+    max-width: 35em;
+    padding: 1.3em;
+    margin: 0 auto;
+    background-color: #201f24;
+    font-weight: bold;
+    border-radius: 15px;
+    box-shadow: inset 1px 1px 1px 1px;
+    color:#ffffff
+
+}
+
+.container-form {
+    margin: 0px;
+    background-color: rgba(252, 252, 252, 0.773);
+}
+
+.intro {
+    font-size: 25px;
+    background-color: #201f24;
+}
+
+
+.botones-form {
+    text-align: center;
+    padding: 30px;
+}
+
+.boton-form-entrar {
+    background-color:#215f02;
+    color: white;
+    width: 180px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+
+
+.aviso_registro {
+    color:#d61313;
+    padding: 100px;
+    text-align: center;
+}
+
+.olvido {
+    color:#ffffff;
+    text-align: center;
+    padding: 5px;
+}
