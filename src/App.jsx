@@ -8,7 +8,7 @@ import "./App.css";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import MenuInicio from "./components/MenuInicio/MenuInicio";
-import ItemListNew from "./components/Hoc/ItemListNew";
+import { BrowserRouter , Routes , Route, Navigate} from "react-router-dom";
 
 
 function App() {
@@ -17,19 +17,24 @@ const clickear = () => console.log()
 
   return (
 
-    <div>
+
+    <BrowserRouter>
+
+
       <Header />
-
       <Intro mensaje="No te muevas de tu casa, elegi los productos y te los llevamos... " />
-      <ItemListContainer />
-      <ItemListNew />
-      <Footer />
       <ToastContainer />
-      <Contacto />
-      <MenuInicio />
 
-    </div>
+      <Routes>
+        <Route path="/" element={<ItemListContainer />}/>
+        <Route path="/Contacto" element={<Contacto />}/>
+        <Route path="/MenuInicio" element={<MenuInicio />}/>
+        <Route path="*" element={ <Navigate to={"/"} />}/>
 
+      </Routes>
+
+      <Footer />
+    </BrowserRouter>
   )
 }
 
