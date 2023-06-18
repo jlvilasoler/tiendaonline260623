@@ -17,7 +17,7 @@
     "descripcion": "Con cera 130m",
     "marca": "DENTALCLEAN",
     "precio": 119.00,
-    "category": "bebidas",
+    "category": "perfumeria",
     "stock": 1000
 },
 {
@@ -27,7 +27,7 @@
     "descripcion": "Blue Diamond",
     "marca": "DENTALCLEAN",
     "precio": 250.50,
-    "category": "bebidas",
+    "category": "perfumeria",
     "stock": 1000
 },
 {
@@ -118,6 +118,236 @@
     "marca": "SALUS",
     "precio": 110.00,
     "category": "bebidas",
+    "stock": 1000
+},
+{
+    "id": 60013,
+    "foto": "/public/assets/limpieza/60013.png",
+    "articulo": "Limpiador de Baño",
+    "descripcion": "450 ml",
+    "marca": "CIF",
+    "precio": 150.00,
+    "category": "limpieza",
+    "stock": 1000
+},
+{
+    "id": 60014,
+    "foto": "/public/assets/limpieza/60014.png",
+    "articulo": "Agua lavandina",
+    "descripcion": "2 L",
+    "marca": "CRISTAL",
+    "precio": 112.00,
+    "category": "limpieza",
+    "stock": 1000
+},
+{
+    "id": 60015,
+    "foto": "/public/assets/limpieza/60015.png",
+    "articulo": "Limpiador de Vidrios",
+    "descripcion": "Multiuso Gatillo 500ml",
+    "marca": "MR. MUSCULO",
+    "precio": 150.00,
+    "category": "limpieza",
+    "stock": 1000
+},
+{
+    "id": 60016,
+    "foto": "/public/assets/limpieza/60016.png",
+    "articulo": "Limpiador de Cocina",
+    "descripcion": "Advanced Doy Pack 450ml",
+    "marca": "MR. MUSCULO",
+    "precio": 100.00,
+    "category": "limpieza",
+    "stock": 1000
+},
+{
+    "id": 60017,
+    "foto": "/public/assets/limpieza/60017.png",
+    "articulo": "Papel Higiénico",
+    "descripcion": "Sin fin plus x4 un 60m",
+    "marca": "HIGIENOL",
+    "precio": 114.00,
+    "category": "limpieza",
+    "stock": 1000
+},
+{
+    "id": 60018,
+    "foto": "/public/assets/limpieza/60018.png",
+    "articulo": "Papel Higiénico",
+    "descripcion": "ultra Doble Hoja 50 m x 4 un",
+    "marca": "ELITE",
+    "precio": 260.00,
+    "category": "limpieza",
+    "stock": 1000
+},
+{
+    "id": 60019,
+    "foto": "/public/assets/limpieza/60019.png",
+    "articulo": "Papel Higiénico Húmedo",
+    "descripcion": "40 un",
+    "marca": "ELITE",
+    "precio": 160.00,
+    "category": "limpieza",
+    "stock": 1000
+},
+{
+    "id": 60020,
+    "foto": "/public/assets/perfumeria/60020.png",
+    "articulo": "Colgate Total 12",
+    "descripcion": "Control Sarro 131g",
+    "marca": "COLGATE",
+    "precio": 140.00,
+    "category": "perfumeria",
+    "stock": 1000
+},
+{
+    "id": 60021,
+    "foto": "/public/assets/perfumeria/60021.png",
+    "articulo": "Jabón de Tocador",
+    "descripcion": "Aloe 85g",
+    "marca": "PROTEX",
+    "precio": 25.00,
+    "category": "perfumeria",
+    "stock": 1000
+},
+{
+    "id": 60022,
+    "foto": "/public/assets/perfumeria/60022.png",
+    "articulo": "Jabón de Tocador",
+    "descripcion": "Natural Carbón 90g",
+    "marca": "PALMOLIVE",
+    "precio": 81.00,
+    "category": "perfumeria",
+    "stock": 1000
+},
+{
+    "id": 60023,
+    "foto": "/public/assets/perfumeria/60023.png",
+    "articulo": "Jabón de Tocador",
+    "descripcion": "Cremoso 375g (Pack x3)",
+    "marca": "NIVEA",
+    "precio": 170.00,
+    "category": "perfumeria",
+    "stock": 1000
+},
+{
+    "id": 60024,
+    "foto": "/public/assets/perfumeria/60024.png",
+    "articulo": "Jabón de Tocador",
+    "descripcion": "Relax 90g",
+    "marca": "ELITE",
+    "precio": 55.00,
+    "category": "perfumeria",
+    "stock": 1000
+},
+{
+    "id": 60025,
+    "foto": "/public/assets/perfumeria/60025.png",
+    "articulo": "Jabón Liquido Vegetal",
+    "descripcion": "Mango y Papaya 500ml",
+    "marca": "NOBBI",
+    "precio": 190.00,
+    "category": "perfumeria",
+    "stock": 1000
+},
+{
+    "id": 60026,
+    "foto": "/public/assets/perfumeria/60026.png",
+    "articulo": "Jabón de Tocador",
+    "descripcion": "Characoal 125g",
+    "marca": "ASTRAL",
+    "precio": 74.00,
+    "category": "perfumeria",
+    "stock": 1000
+},
+{
+    "id": 60027,
+    "foto": "/public/assets/limpieza/60027.png",
+    "articulo": "Jabón de Tocador",
+    "descripcion": "Coco 200g",
+    "marca": "GIRANDO SOL",
+    "precio": 80.00,
+    "category": "limpieza",
+    "stock": 1000
+},
+{
+    "id": 60028,
+    "foto": "/public/assets/limpieza/60028.png",
+    "articulo": "Quitamanchas",
+    "descripcion": "Rosa 450g",
+    "marca": "VANISH",
+    "precio": 300.00,
+    "category": "limpieza",
+    "stock": 1000
+},
+{
+    "id": 60029,
+    "foto": "/public/assets/bebidas/60029.png",
+    "articulo": "Bebida isotónica",
+    "descripcion": "Manzana 995ml",
+    "marca": "POWERADE",
+    "precio": 80.00,
+    "category": "bebidas",
+    "stock": 1000
+},
+{
+    "id": 60030,
+    "foto": "/public/assets/bebidas/60030.png",
+    "articulo": "Refresco",
+    "descripcion": "Sabor Original Lata 354ml",
+    "marca": "COCA COLA",
+    "precio": 55.00,
+    "category": "bebidas",
+    "stock": 1000
+},
+{
+    "id": 60031,
+    "foto": "/public/assets/bebidas/60031.png",
+    "articulo": "Refresco Pomelo",
+    "descripcion": "Sin Azúcar 1.5L",
+    "marca": "SALUS",
+    "precio": 99.00,
+    "category": "bebidas",
+    "stock": 1000
+},
+{
+    "id": 60032,
+    "foto": "/public/assets/bebidas/60032.png",
+    "articulo": "Tónica",
+    "descripcion": "1.5L",
+    "marca": "PASO DE LOS TOROS",
+    "precio": 120.00,
+    "category": "bebidas",
+    "stock": 1000
+},
+{
+    "id": 60033,
+    "foto": "/public/assets/almacen/60033.png",
+    "articulo": "Galleta de Arroz",
+    "descripcion": "Clásica 140 g",
+    "marca": "SAMAN",
+    "precio": 60.00,
+    "category": "almacen",
+    "stock": 1000
+},
+{
+    "id": 60034,
+    "foto": "/public/assets/almacen/60034.png",
+    "articulo": "Galleta Multicereal",
+    "descripcion": "La Celestina 250g",
+    "marca": "LA CELESTINA",
+    "precio": 90.00,
+    "category": "almacen",
+    "stock": 1000
+},
+{
+    "id": 60035,
+    "foto": "/public/assets/almacen/60035.png",
+    "articulo": "Galleta Finitas",
+    "descripcion": "Finitas 300g",
+    "marca": "LA CELESTINA",
+    "precio": 90.00,
+    "category": "almacen",
     "stock": 1000
 }
 ]

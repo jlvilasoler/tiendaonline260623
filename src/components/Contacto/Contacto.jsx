@@ -6,17 +6,13 @@ function SizesExample() {
     return (
         <>
 
-
-
-
+        <section class="fondo-body">
             <section class="contacto">
                 <div class="container-form">
-
 
                     <form class="intro-form" action="" method="POST">
 
                         <h3 class="contactanos"> CONTACTANOS: </h3>
-
                         <div class="form-group">
                             <label>DOCUMENTO:</label>
                             <input type="text" placeholder="Ingrese Numero de documento" maxLength="10" id="documento" name="documento" class="form-control"></input>
@@ -171,22 +167,9 @@ function SizesExample() {
                         <button type="submit" class="boton-form-cancelar"> Cancelar </button>
                     </div>
 
-
-
-
-
-
                 </div>
-
             </section>
-
-
-
-
-
-
-
-
+            </section>
         </>
 
     );

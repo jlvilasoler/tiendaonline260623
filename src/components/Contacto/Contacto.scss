@@ -12,12 +12,12 @@
 .contacto {
     max-width: 35em;
     padding: 1.9em;
-    margin: 0 auto;
     background-color: #201f24;
     font-weight: bold;
     border-radius: 15px;
     box-shadow: inset 1px 1px 1px 1px;
-    color:#ffffff
+    color:#ffffff;
+    margin: 100px auto;
 }
 
 .container-form {
@@ -70,4 +70,8 @@
     margin:0%;
     padding-bottom: 30px;
     padding-top: 30px;
+}
+
+.fondo-body {
+    background-color: #ffffff72;
 }
