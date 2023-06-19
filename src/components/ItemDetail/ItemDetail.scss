@@ -1,7 +1,7 @@
 .container-consola {
   background-color: rgb(42, 42, 42);
   color:white;
-  width: 30%;
+  width: 37%;
   height: 100%;
 }
 
@@ -9,7 +9,7 @@
 .container-consola .marca-consola{
   font-size: 35px;
   padding-bottom: 5px;
-  padding-top: 1px;
+  padding-top: 0px;
   color: white;
   text-align: center;
 }
@@ -32,27 +32,28 @@
 
 //TAMAÑO IMAGEN ARTICULO
 .container-consola .imagen-consola {
-  width: 90%;
-  padding-left: 40px;
+  width: 75%;
+  padding-left: 110px;
+  border-radius: 3px;
 }
 
 
 //PRECIO ARTICULO
 .container-consola .precio-consola {
-  font-size: 35px;
-  padding-top: 10px;
+  font-size: 38px;
+  padding-top: 2px;
   text-align: center;
-  padding-bottom: 10px;
+  padding-bottom: 2px;
   background-color: rgb(42, 42, 42);
 }
 
 // CONSOLA ITEM DETALLES
 .container-consola .categoria-consola {
   background-color: rgb(42, 42, 42);
-  padding-top: 10px;
+  padding-top: 3px;
   text-align: left;
   margin: 15px;
-  font-size: 14px;
+  font-size: 10px;
 }
 
 // CONSOLA ITEM DETALLES
@@ -66,4 +67,5 @@
 
 .contador {
   display: flex;
+  font-size: 20px;
 }

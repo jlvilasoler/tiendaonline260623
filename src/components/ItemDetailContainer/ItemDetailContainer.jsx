@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import { getData } from "../Helpers/GetData"
 import { useParams } from 'react-router-dom';
 import ItemDetail from '../ItemDetail/ItemDetail';
+import '../ItemDetailContainer/ItemDetailContainer.scss';
 
 
 const ItemDetailContainer = () => {
@@ -27,7 +28,7 @@ const ItemDetailContainer = () => {
 
 
     return (
-        <div className="container my-5">
+        <div className="container">
         {
         loading? <h3>Cargando...</h3> : <ItemDetail {...item}/>
         }

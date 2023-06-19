@@ -1,6 +1,7 @@
 import { useState } from "react"
 import "../ItemCounter/ItemCounter.scss"
 
+
 const ItemCounter = ({max, item}) => {
 
     const [counter, setCounter] = useState(1)
@@ -23,19 +24,25 @@ const ItemCounter = ({max, item}) => {
                 console.log({...item, counter})
         }
 
-    
 return (
-    <div className="">
-            <button onClick={handleRestar} className="btn btn-primary">-</button>
+    <div className="contador">
+            <button onClick={handleRestar} className="btn btn-primary">➖</button>
             <span className="mx-3">{counter}</span>
-            <button onClick={handleSumar} className="btn btn-primary">+</button>
+            <button onClick={handleSumar} className="btn btn-primary">➕</button>
 
             <br/>
 
-            <button onClick={handleAgregar} className="btn btn-success">AGREGAR AL CARRITO</button>
+            <button onClick={handleAgregar} className="btn-agregar">AGREGAR A CARRITO</button>
+
+
     </div>
+
+
+
 )
 
 }
+
+
 
 export default ItemCounter
