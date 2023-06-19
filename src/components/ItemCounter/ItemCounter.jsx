@@ -16,8 +16,6 @@ const ItemCounter = ({max, cantidad, setCounter, handleAgregar}) => {
     }
 
 
-    
-
 return (
     <div className="contador">
             <button onClick={handleRestar} className="btn btn-primary">➖</button>
@@ -26,7 +24,7 @@ return (
 
             <br/>
 
-            <button className="btn-agregar">AGREGAR A CARRITO</button>
+            <button onClick={handleAgregar} className="btn-agregar">AGREGAR A CARRITO</button>
 
 
     </div>
