@@ -14,3 +14,35 @@
     transition: 0.3s;
   }
   
+//IMAGEN ARTICULO
+.col-2 img {
+    width: 150px;
+}
+
+//ARTICULO PRODUCTO
+.col-2 h2 {
+    font-size: 18px;
+    padding-top: 9px;
+}
+
+//DESCRIPCION PRODUCTO
+.col-2 h3 {
+    font-size: 18px;
+}
+
+//MARCA PRODUCTO
+.col-2 p {
+    font-size: 22px;
+    margin: 0px;
+
+}
+
+
+//PRECIO
+.col-2 .precio {
+    font-size: 28px;
+    padding-bottom: 15px;
+    font-weight: 600;
+    color:#313334;
+}
+

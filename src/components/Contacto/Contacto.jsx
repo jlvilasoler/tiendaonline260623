@@ -1,12 +1,31 @@
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 import "../Contacto/Contacto.scss"
+import { useEffect } from 'react';
+
+
+
 
 function SizesExample() {
+
+const clickear = () => {
+    console.log("click")
+}
+
+useEffect(()=> {
+    window.addEventListener("click", clickear)
+
+    return () => {
+    window.removeEventListener("click", clickear)
+    }
+}, [])
+
     return (
         <>
 
         <section class="fondo-body">
+
+
             <section class="contacto">
                 <div class="container-form">
 
@@ -15,8 +34,12 @@ function SizesExample() {
                         <h3 class="contactanos"> CONTACTANOS: </h3>
                         <div class="form-group">
                             <label>DOCUMENTO:</label>
-                            <input type="text" placeholder="Ingrese Numero de documento" maxLength="10" id="documento" name="documento" class="form-control"></input>
+                            <input type="text" placeholder="Ingrese Número de documento" maxLength="10" id="documento" name="documento" class="form-control"></input>
                         </div>
+
+                        <div class="form-group">
+                            <hr className="hr"/>
+                            </div>
 
                         <div class="form-group">
                             <label>PRIMER NOMBRE:</label>
@@ -39,13 +62,13 @@ function SizesExample() {
                         </div>
 
                         <div class="form-group">
-                            <label>DIRECCIÓN:</label>
-                            <input type="text" placeholder="Ingrese Dirección" maxLength="20" id="direccion" name="direccion" class="form-control"></input>
+                            <hr className="hr"/>
                         </div>
 
                         <div class="form-group">
                             <label>CIUDAD:</label>
                             <select name="ciudad" class="form-control" id="">
+                            <option value="Ingrese">Ingrese Ciudad/Localidad</option>
                                 <option value="artigas">Artigas - Artigas</option>
                                 <option value="bella union">Bella Unión - Artigas</option>
                                 <option value="18 de mayo">18 de Mayo - Canelones</option>
@@ -117,6 +140,7 @@ function SizesExample() {
                         <div class="form-group">
                             <label>DEPARTAMENTO:</label>
                             <select name="departamento" id="departamento" class="form-control">
+                            <option value="Ingrese">Ingrese Departamento</option>
                                 <option value="Artigas">Artigas</option>
                                 <option value="Rocha">Rocha</option>
                                 <option value="Montevideo">Montevideo</option>
@@ -140,18 +164,27 @@ function SizesExample() {
                         </div>
 
                         <div class="form-group">
+                            <hr className="hr"/>
+                        </div>
+
+                        <div class="form-group">
                             <label>E-MAIL:</label>
                             <input type="text" placeholder="Ingrese E-mail" maxLength="15" id="email" name="email" class="form-control"></input>
                         </div>
 
                         <div class="form-group">
                             <label>CELULAR:</label>
-                            <input type="text" placeholder="Ingrese Numero de Celular" id="celular" name="celular" class="form-control"></input>
+                            <input type="text" placeholder="Ingrese Número de Celular" id="celular" name="celular" class="form-control"></input>
                         </div>
 
                         <div class="form-group">
                             <label>TELEFONO:</label>
-                            <input type="text" placeholder="Ingrese Numero de Teléfono" id="telefono" name="telefono" class="form-control"></input>
+                            <input type="text" placeholder="Ingrese Número de Teléfono" id="telefono" name="telefono" class="form-control"></input>
+                        </div>
+
+
+                        <div class="form-group">
+                            <hr className="hr"/>
                         </div>
 
                         <div class="form-group">
@@ -163,7 +196,6 @@ function SizesExample() {
 
                     <div class="botones-form">
                         <button type="submit" class="boton-form-enviar"> Enviar </button>
-                        <button type="reset" class="boton-form-reset"> Reset </button>
                         <button type="submit" class="boton-form-cancelar"> Cancelar </button>
                     </div>
 

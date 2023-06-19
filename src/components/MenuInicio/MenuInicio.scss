@@ -13,7 +13,7 @@
     max-width: 35em;
     padding: 1.3em;
     margin: 0 auto;
-    background-color: #201f24;
+    background-color: rgb(42, 42, 42);
     font-weight: bold;
     border-radius: 15px;
     box-shadow: inset 1px 1px 1px 1px;
@@ -24,11 +24,12 @@
 .container-form {
     margin: 0px;
     background-color: rgba(252, 252, 252, 0.773);
+
 }
 
 .intro {
     font-size: 25px;
-    background-color: #201f24;
+    background-color: rgb(42, 42, 42);
 }
 
 
@@ -38,23 +39,36 @@
 }
 
 .boton-form-entrar {
-    background-color:#215f02;
+    background-color:#0512c6;
     color: white;
-    width: 180px;
+    width: 400px;
     height: 50px;
-    border-radius: 8px;
+    border-radius: 10px;
+    border-color: #101ff8;
 }
 
+.boton-form-entrar:hover {
+    background-color:#2734e0;
 
+}
 
 .aviso_registro {
-    color:#d61313;
     padding: 100px;
     text-align: center;
 }
 
+.registrar {
+    color: red;
+}
+
+
 .olvido {
-    color:#ffffff;
-    text-align: center;
+    color:white;
+    text-align: right;
+    font-size: 13px;
     padding: 5px;
+}
+
+.menuinicio .intro {
+    background-color: rgb(42, 42, 42);
 }

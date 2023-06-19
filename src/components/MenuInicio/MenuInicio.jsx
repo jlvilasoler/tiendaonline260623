@@ -1,6 +1,7 @@
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 import "../MenuInicio/MenuInicio.scss"
+import { Link } from 'react-router-dom';
 
 function MenuInicio() {
   return (
@@ -12,9 +13,9 @@ function MenuInicio() {
 
 <div class="row my-5">
 
-<div class="container-form">
+<div class="container">
     <form action="" method="POST" class="menuinicio">
-    <h3 class="intro"> MENÚ DE INICIO: </h3>
+    <h3 class="intro"> INGRESAR: </h3>
 
 
         <div class="form-group">
@@ -25,20 +26,20 @@ function MenuInicio() {
         <div class="form-group">
         <label>CONTRASEÑA:</label>
         <input type="text" placeholder="Ingrese Contraseña" maxLength="15" id="contrasena" name="contrasena" class="form-control"></input>
+        <h6 className="olvido">¿Olvidaste tu contraseña?</h6>
         </div>
+        
 
         <div class="botones-form">
 <button type="submit" class="boton-form-entrar"> ENTRAR </button>
 
-<div class="olvido">
-        <h6>¿Olvidé mi contraseña?</h6>
-        </div>  
+
 
 </div>
 </form>
 
         <div class="aviso_registro">
-        <h6>¿No tiene una cuenta? Regístrese</h6>
+        <Link className="registrar" to="/Registro">¿Soy nuevo? Registrame</Link>
         </div>  
 
 

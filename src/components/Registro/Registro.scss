@@ -1,26 +1,15 @@
 .body {
     background-position: center;
-    
-}
-
-.fondo-body {
-    background-color: #ffffff72;
-    padding: 0px;
-    margin: 0px;
-}
-
-.introduccion {
-    padding-bottom: 1px;
 }
 
 .form-group {
     padding: 5px;
     padding-left: 60px;
     padding-right: 60px;
-    background-color: #201f24;
+    background-color: rgb(42, 42, 42);
 }
 
-.contacto {
+.registro {
     max-width: 35em;
     padding: 1.9em;
     background-color: rgb(42, 42, 42);
@@ -28,7 +17,7 @@
     border-radius: 15px;
     box-shadow: inset 1px 1px 1px 1px;
     color:#ffffff;
-    margin: 50px auto;
+    margin: 100px auto;
 }
 
 .container-form {
@@ -40,52 +29,43 @@
 .botones-form {
     text-align: center;
     padding: 30px;
-    background-color: #201f24;
+    background-color: rgb(42, 42, 42);
     
 }
 
-//BOTON ENVIAR MENSAJE CONTACTO
 .boton-form-enviar {
-    background-color:#215f02;
+    background-color:#101ff8;;
     color: white;
-    width: 180px;
+    width: 185px;
     height: 50px;
-    border-radius: 8px;
-    margin: 15px
+    border-radius: 10px;
+    border-color: #101ff8;
 }
 
 .boton-form-enviar:hover {
-    background-color:#42af0c;
+    background-color:#2734e0;
+    color: grey;
+
 }
 
-//BOTON CANCELAR
 .boton-form-cancelar {
-    background-color:#d61313;
+    background-color: rgb(74, 74, 74);;
     color: white;
-    width: 100px;
+    width: 185px;
     height: 50px;
-    border-radius: 8px;
-    margin: 5px
+    border-radius: 10px;
+    border-color: rgb(68, 68, 68);
 }
 
 .boton-form-cancelar:hover {
-    background-color: #5f0202;
+    background-color:rgb(98, 98, 98);
+    color: rgb(180, 180, 180);
+
 }
 
 
-//BOTON RESET
-.boton-form-reset {
-    background-color:#aaaaaa;
-    width: 100px;
-    height: 50px;
-    border-radius: 8px;
-}
 
-.boton-form-reset:hover {
-    background-color:#7a7979;
-}
-
-.contactanos {
+.registrate {
     background-color: rgb(42, 42, 42);
     text-align: center;
     padding: 20px;
@@ -94,9 +74,11 @@
     padding-top: 30px;
 }
 
-
+.fondo-body {
+    background-color: #ffffff72;
+}
 
 .hr {
-    background-color: rgb(42, 42, 42);
-    background-color: rgb(42, 42, 42);
+    background-color: #201f24;
+    color: #201f24;
 }

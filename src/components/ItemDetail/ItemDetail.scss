@@ -1,8 +1,69 @@
-.detalle img{
-width: 350px;
+.container-consola {
+  background-color: rgb(42, 42, 42);
+  color:white;
+  width: 30%;
+  height: 100%;
+}
+
+//DETALLE MARCA
+.container-consola .marca-consola{
+  font-size: 35px;
+  padding-bottom: 5px;
+  padding-top: 1px;
+  color: white;
+  text-align: center;
+}
+
+//DETALLE ARTICULO
+.container-consola .articulo-consola{
+  font-size: 18px;
+  padding-top: 30px;
+  text-align: right;
+  padding-right: 40px;
+}
+
+//DETALLE DESCRIPCION
+.container-consola .descripcion-consola{
+  font-size: 18px;
+  padding-bottom: 10px;  
+  text-align: right;
+  padding-right: 40px;
+}
+
+//TAMAÑO IMAGEN ARTICULO
+.container-consola .imagen-consola {
+  width: 90%;
+  padding-left: 40px;
 }
 
 
-.detalle p{
-  font-size: 40px;
-  }
+//PRECIO ARTICULO
+.container-consola .precio-consola {
+  font-size: 35px;
+  padding-top: 10px;
+  text-align: center;
+  padding-bottom: 10px;
+  background-color: rgb(42, 42, 42);
+}
+
+// CONSOLA ITEM DETALLES
+.container-consola .categoria-consola {
+  background-color: rgb(42, 42, 42);
+  padding-top: 10px;
+  text-align: left;
+  margin: 15px;
+  font-size: 14px;
+}
+
+// CONSOLA ITEM DETALLES
+.container-consola {
+  background-color: rgb(42, 42, 42);
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+
+.contador {
+  display: flex;
+}
