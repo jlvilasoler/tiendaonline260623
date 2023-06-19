@@ -1,12 +1,17 @@
-import Form from 'react-bootstrap/Form';
-import InputGroup from 'react-bootstrap/InputGroup';
 import "../Registro/Registro.scss"
 import { useEffect } from 'react';
-import { Link } from 'react-router-dom';
 
 
 
 function SizesExample() {
+
+    const handleConfirmarClick = () => {
+        console.log("se hizo click en boton confirmar")
+    }
+
+    const handleCancelClick = () => {
+        console.log("se hizo click en boton cancelar")
+    }
 
     const clickear = () => {
         console.log("click")
@@ -42,7 +47,7 @@ function SizesExample() {
                             </div>
 
                             <div class="form-group">
-                            <hr className="hr"/>
+                                <hr className="hr" />
                             </div>
 
                             <div class="form-group">
@@ -66,7 +71,7 @@ function SizesExample() {
                             </div>
 
                             <div class="form-group">
-                            <hr className="hr"/>
+                                <hr className="hr" />
                             </div>
 
                             <div class="form-group">
@@ -81,7 +86,7 @@ function SizesExample() {
                             </div>
 
                             <div class="form-group">
-                            <hr className="hr"/>
+                                <hr className="hr" />
                             </div>
 
                             <div class="form-group">
@@ -92,7 +97,7 @@ function SizesExample() {
                             <div class="form-group">
                                 <label>CIUDAD:</label>
                                 <select name="ciudad" class="form-control" id="">
-                                <option value="Ingrese">Ingrese Ciudad/Localidad</option>
+                                    <option value="Ingrese">Ingrese Ciudad/Localidad</option>
                                     <option value="artigas">Artigas - Artigas</option>
                                     <option value="bella union">Bella Unión - Artigas</option>
                                     <option value="18 de mayo">18 de Mayo - Canelones</option>
@@ -164,7 +169,7 @@ function SizesExample() {
                             <div class="form-group">
                                 <label>DEPARTAMENTO:</label>
                                 <select name="departamento" id="departamento" class="form-control">
-                                    <option value="Ingrese">Ingrese Departamento</option>   
+                                    <option value="Ingrese">Ingrese Departamento</option>
                                     <option value="Artigas">Artigas</option>
                                     <option value="Rocha">Rocha</option>
                                     <option value="Montevideo">Montevideo</option>
@@ -188,7 +193,7 @@ function SizesExample() {
                             </div>
 
                             <div class="form-group">
-                            <hr className="hr"/>
+                                <hr className="hr" />
                             </div>
 
                             <div class="form-group">
@@ -205,8 +210,8 @@ function SizesExample() {
 
 
                         <div class="botones-form">
-                            <button type="submit" className="boton-form-enviar"> Confirmar </button>
-                            <button type="submit" className="boton-form-cancelar"> Cancelar </button>
+                            <button onClick={handleConfirmarClick} type="submit" className="boton-form-enviar"> Confirmar </button>
+                            <button onClick={handleCancelClick} type="submit" className="boton-form-cancelar"> Cancelar </button>
                         </div>
 
                     </div>

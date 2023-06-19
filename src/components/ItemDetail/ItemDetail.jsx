@@ -1,7 +1,14 @@
+import { useState } from "react";
 import ItemCounter from "../ItemCounter/ItemCounter";
 import "../ItemDetail/ItemDetail.scss"
 
 const ItemDetail = ({ id, foto, articulo, descripcion, marca, precio, category, seccion, stock }) => {
+const [cantidad, setCounter] = useState(1)
+
+const handleAgregar = () => {
+    const item = { id, foto, articulo, descripcion, marca, precio, category, seccion, stock, cantidad }
+    console.log(item)
+}
 
     return (
         <div className="container-consola">
@@ -23,7 +30,9 @@ const ItemDetail = ({ id, foto, articulo, descripcion, marca, precio, category, 
             <div>
             <ItemCounter 
             max={stock}
-            item={{ id, foto, articulo, descripcion, marca, precio, category, seccion, stock }}
+            cantidad={cantidad}
+            setCounter={setCounter}
+            handleAgregar={handleAgregar}
             />
 
             </div>

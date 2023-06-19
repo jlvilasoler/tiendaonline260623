@@ -13,7 +13,7 @@ function MenuInicio() {
 
 <div class="row my-5">
 
-<div class="container">
+<div class="container-inicio">
     <form action="" method="POST" class="menuinicio">
     <h3 class="intro"> INGRESAR: </h3>
 
