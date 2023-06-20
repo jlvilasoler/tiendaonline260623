@@ -1,0 +1,93 @@
+.body {
+  background-position: center;
+}
+
+.fondo-body {
+  background-color: rgba(255, 255, 255, 0.4470588235);
+  padding: 0px;
+  margin: 0px;
+}
+
+.introduccion {
+  padding-bottom: 1px;
+}
+
+.form-group {
+  padding: 5px;
+  padding-left: 60px;
+  padding-right: 60px;
+  background-color: #201f24;
+}
+
+.contacto {
+  max-width: 35em;
+  padding: 1.9em;
+  background-color: rgb(42, 42, 42);
+  font-weight: bold;
+  border-radius: 15px;
+  box-shadow: inset 1px 1px 1px 1px;
+  color: #ffffff;
+  margin: 50px auto;
+}
+
+.container-form {
+  margin: 0px;
+  background-color: rgb(240, 239, 239);
+}
+
+.botones-form {
+  text-align: center;
+  padding: 30px;
+  background-color: #201f24;
+}
+
+.boton-form-enviar {
+  background-color: #215f02;
+  color: white;
+  width: 180px;
+  height: 50px;
+  border-radius: 8px;
+  margin: 15px;
+}
+
+.boton-form-enviar:hover {
+  background-color: #42af0c;
+}
+
+.boton-form-cancelar {
+  background-color: #d61313;
+  color: white;
+  width: 100px;
+  height: 50px;
+  border-radius: 8px;
+  margin: 5px;
+}
+
+.boton-form-cancelar:hover {
+  background-color: #5f0202;
+}
+
+.boton-form-reset {
+  background-color: #aaaaaa;
+  width: 100px;
+  height: 50px;
+  border-radius: 8px;
+}
+
+.boton-form-reset:hover {
+  background-color: #7a7979;
+}
+
+.contactanos {
+  background-color: rgb(42, 42, 42);
+  text-align: center;
+  padding: 20px;
+  margin: 0%;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.hr {
+  background-color: rgb(42, 42, 42);
+  background-color: rgb(42, 42, 42);
+}/*# sourceMappingURL=Contacto.css.map */

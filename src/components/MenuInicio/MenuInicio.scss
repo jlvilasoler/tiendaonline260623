@@ -1,6 +1,19 @@
-.body {
-    background-position: center;
+* {
+    margin: 0;
+    box-sizing: border-box;
+    
 }
+
+.page {
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 
 .menuinicio .intro {
     text-align: center;
@@ -10,15 +23,17 @@
 }
 
 .menuinicio {
+    display: flex;
+    flex-direction: column;
     max-width: 35em;
+    max-height: 30em;
     padding: 1.3em;
     margin: 0 auto;
     background-color: rgb(42, 42, 42);
     font-weight: bold;
     border-radius: 15px;
-    box-shadow: inset 1px 1px 1px 1px;
-    color:#ffffff
-
+    color:#ffffff;
+    box-shadow: 0 0.188em 1.550em rgb(51, 51, 51)
 }
 
 .container-form {
@@ -41,14 +56,19 @@
 
 
 .botones-form {
+    background-color:rgb(42, 42, 42);
+    color: white;
+    width: 80%;
     text-align: center;
-    padding: 30px;
+    border-radius: 10px;
+    border-color: rgb(42, 42, 42);
+    margin: 0 auto;
 }
 
 .boton-form-entrar {
     background-color:#0512c6;
     color: white;
-    width: 400px;
+    width: 80%;
     height: 50px;
     border-radius: 10px;
     border-color: #101ff8;
@@ -74,8 +94,42 @@
     text-align: right;
     font-size: 13px;
     padding: 5px;
+
 }
+
 
 .menuinicio .intro {
     background-color: rgb(42, 42, 42);
 }
+
+
+.form-group{
+    font-size: 22px;
+    width: 80%;
+    margin: 0 auto;
+    height: 70px;
+    border-radius: 0.25em;
+}
+
+.form-group input {
+    font-size: 20px;
+    background-color: white;
+    height: 45px;
+    width: 100%;
+    border-radius: 0.25em;
+    text-align: center;
+
+}
+input:focus {
+    outline-color: rgb(42, 42, 42);
+}
+
+.form-group label {
+    padding: 0px;
+}
+
+/*
+@font-face {
+    font-family: "CustomFont";
+    src: url("../fonts/RolexLight.woff2")
+}*/

@@ -1,13 +1,21 @@
 /* ITEM LIST CONTAINER */
-.container .row .img {
-  width: 10%;
+.container img {
+  width: 150px;
 }
 
-.container {
+.container .container {
   display: flex;
   flex-wrap: wrap;
-  gap: 3rem;
-  padding: 10px;
+  gap: 4rem;
+  padding-top: 60px;
+  padding-left: 1px;
+  padding-right: 50px;
+  padding-bottom: 70px;
   justify-content: space-between;
   text-align: center;
+  background-color: white;
+}
+
+.container h3 {
+  font-size: 22px;
 }/*# sourceMappingURL=ItemListContainer.css.map */

@@ -1,12 +1,13 @@
 /* FOOTER */
 .footer {
-  background-color: #201f24;
+  background-color: rgb(42, 42, 42);
   color: rgba(191, 191, 191, 0.843);
   height: 230px;
   color: white;
   font-size: 15px;
   display: flex;
   flex-direction: column;
+  padding-top: 20px;
 }
 .footer .footer_botones {
   color: rgba(191, 191, 191, 0.843);
@@ -25,4 +26,5 @@
   font-size: 10px;
   text-align: right;
   margin: 40px;
+  background-color: rgb(42, 42, 42);
 }/*# sourceMappingURL=Footer.css.map */

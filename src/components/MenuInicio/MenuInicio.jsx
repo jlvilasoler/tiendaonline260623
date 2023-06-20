@@ -11,6 +11,13 @@ function MenuInicio() {
 
 <body>
 
+
+
+
+
+
+
+
 <div class="row my-5">
 
 <div class="container-inicio">
@@ -19,23 +26,21 @@ function MenuInicio() {
 
 
         <div class="form-group">
-        <label>DOCUMENTO O E-MAIL:</label>
-        <input type="text" placeholder="Ingrese Número de Documento o E-mail" maxLength="20" id="documento" name="documento" class="form-control"></input>
+
+        <input type="text" placeholder="Ingrese Documento o E-mail" maxLength="25" id="documento" name="documento" class="form-control"></input>
         </div>
 
         <div class="form-group">
-        <label>CONTRASEÑA:</label>
-        <input type="text" placeholder="Ingrese Contraseña" maxLength="15" id="contrasena" name="contrasena" class="form-control"></input>
+
+        <input type="password" placeholder="Ingrese Contraseña" maxLength="15" id="contrasena" name="contrasena" class="form-control"></input>
         <h6 className="olvido">¿Olvidaste tu contraseña?</h6>
         </div>
         
 
         <div class="botones-form">
 <button type="submit" class="boton-form-entrar"> ENTRAR </button>
-
-
-
 </div>
+
 </form>
 
         <div class="aviso_registro">

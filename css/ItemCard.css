@@ -1,0 +1,40 @@
+.boton-ver {
+  border-radius: 7px;
+  color: #ffffff;
+  background-color: #081cd1;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 15px;
+}
+
+.boton-ver:hover {
+  background-color: #313334;
+  color: #ffffff;
+  transition: 0.3s;
+}
+
+.col-2 img {
+  width: 150px;
+}
+
+.col-2 h2 {
+  font-size: 18px;
+  padding-top: 9px;
+}
+
+.col-2 h3 {
+  font-size: 18px;
+}
+
+.col-2 p {
+  font-size: 22px;
+  margin: 0px;
+}
+
+.col-2 .precio {
+  font-size: 28px;
+  padding-bottom: 15px;
+  font-weight: 600;
+  color: #313334;
+}/*# sourceMappingURL=ItemCard.css.map */

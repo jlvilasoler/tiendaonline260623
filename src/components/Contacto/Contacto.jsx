@@ -2,6 +2,11 @@ import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 import "../Contacto/Contacto.scss"
 import { useEffect } from 'react';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
+
 
 
 
@@ -94,6 +99,7 @@ useEffect(()=> {
                                 <option value="Rio Branco">Rio Branco - Cerro Largo</option>
                                 <option value="Colonia del Sacramento">Colonia del Sacramento - Colonia</option>
                                 <option value="Carmelo">Carmelo - Colonia</option>
+                                <option value="Colonia Valdense">Colonia Valdense - Colonia</option>
                                 <option value="Nueva Helvecia">Nueva Helvecia - Colonia</option>
                                 <option value="Juan Lacaze">Juan Lacaze - Colonia</option>
                                 <option value="Nueva Palmira">Nueva Palmira - Colonia</option>
@@ -201,6 +207,8 @@ useEffect(()=> {
                 </div>
             </section>
             </section>
+            
+
         </>
 
     );

@@ -1,0 +1,24 @@
+.nosotros-titulo {
+  background-color: rgb(42, 42, 42);
+  text-align: center;
+  padding: 20px;
+  margin: 0%;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.nosotros {
+  max-width: 35em;
+  padding: 1.9em;
+  background-color: rgb(42, 42, 42);
+  font-weight: bold;
+  border-radius: 15px;
+  box-shadow: inset 1px 1px 1px 1px;
+  color: #ffffff;
+  margin: 50px auto;
+}
+
+.container-form {
+  margin: 0px;
+  background-color: rgb(240, 239, 239);
+}/*# sourceMappingURL=Nosotros.css.map */
