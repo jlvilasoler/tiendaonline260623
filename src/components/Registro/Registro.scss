@@ -1,15 +1,9 @@
-.body {
-    background-position: center;
-}
-
-.form-group {
-    padding: 5px;
-    padding-left: 60px;
-    padding-right: 60px;
-    background-color: rgb(42, 42, 42);
-}
-
-.registro {
+.intro-form {
+    width: 320px;
+    margin: 0 auto;
+  }
+  
+  .contacto {
     max-width: 35em;
     padding: 1.9em;
     background-color: rgb(42, 42, 42);
@@ -17,68 +11,67 @@
     border-radius: 15px;
     box-shadow: inset 1px 1px 1px 1px;
     color:#ffffff;
-    margin: 100px auto;
-}
-
-.container-form {
-    margin: 0px;
-    background-color: rgb(240, 239, 239);
-}
-
-
-.botones-form {
-    text-align: center;
-    padding: 30px;
-    background-color: rgb(42, 42, 42);
-    
-}
-
-.boton-form-enviar {
-    background-color:#101ff8;;
-    color: white;
-    width: 185px;
-    height: 50px;
-    border-radius: 10px;
-    border-color: #101ff8;
-}
-
-.boton-form-enviar:hover {
-    background-color:#2734e0;
-    color: grey;
-
-}
-
-.boton-form-cancelar {
-    background-color: rgb(74, 74, 74);;
-    color: white;
-    width: 185px;
-    height: 50px;
-    border-radius: 10px;
-    border-color: rgb(68, 68, 68);
-}
-
-.boton-form-cancelar:hover {
-    background-color:rgb(98, 98, 98);
-    color: rgb(180, 180, 180);
-
-}
-
-
-
-.registrate {
+    margin: 50px auto;
+  }
+  
+  
+  .contactanos {
     background-color: rgb(42, 42, 42);
     text-align: center;
     padding: 20px;
     margin:0%;
     padding-bottom: 30px;
     padding-top: 30px;
+  }
+  
+  
+  .contacto .container-form {
+    background-color: rgb(42, 42, 42);
+    height: 1450px;
+  }
+  
+  
+  .bot{
+   text-align: center;
+  }
+  
+  .div .form-group {
+    font-size: 90px;
+    height: 100px;
+  }
+  
+  .label {
+    font-size: 13px;
+    padding-top: 15px;
+  }
+  
+
+.boton-form-confirmar {
+    background-color:#0512c6;
+    color: white;
+    width: 30%;
+    height: 50px;
+    border-radius: 10px;
+    border-color: #101ff8;
 }
 
-.fondo-body {
-    background-color: #ffffff72;
+.boton-form-confirmar:hover {
+    background-color:#3bc849;
+    color: rgb(0, 0, 0);
+    border-color: #707070;
 }
 
-.hr {
-    background-color: #201f24;
-    color: #201f24;
+.boton-form-cancelar {
+    background-color:#777778;
+    color: white;
+    width: 30%;
+    height: 50px;
+    border-radius: 10px;
+    border-color: #707070;
+}
+
+.boton-form-cancelar:hover {
+    background-color:#b8b8b8;
+    color: rgb(0, 0, 0);
+    border-color: #707070;
 }

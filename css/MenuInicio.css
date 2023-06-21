@@ -29,7 +29,7 @@
   font-weight: bold;
   border-radius: 15px;
   color: #ffffff;
-  box-shadow: 0 0.188em 1.55em rgb(51, 51, 51);
+  box-shadow: 0 0.188em 1.5em rgb(51, 51, 51);
 }
 
 .container-form {
@@ -100,12 +100,18 @@
 }
 
 .form-group input {
-  font-size: 20px;
+  font-size: 18px;
   background-color: white;
   height: 45px;
   width: 100%;
   border-radius: 0.25em;
-  text-align: center;
+  text-align: left;
+  color: black;
+}
+
+.form-group input:hover {
+  background-color: rgba(194, 198, 254, 0.8509803922);
+  color: #2734e0;
 }
 
 input:focus {
