@@ -1,12 +1,20 @@
 import "/src/components/NavBar/NavBar.scss"
 import CardWidget from "../CardWidget/CardWidget"
 import { Link } from "react-router-dom"
+import Buscador from "../Buscador/Buscador"
 
 const Header = () => {
 
     return (
+
+        
         <header className="header">
+            <div className="buscador">
+                        <Buscador/>
+            </div>   
+
             <div className="header_container">
+
                 <Link className="header_logo" to="/">tiendaonline.uy</Link>
 
                 <nav className="header_nav">
@@ -24,6 +32,8 @@ const Header = () => {
                     
                 </nav>
             </div>
+
+
         </header>
     )
 

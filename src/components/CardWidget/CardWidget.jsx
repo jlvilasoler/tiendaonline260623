@@ -6,7 +6,7 @@ const CardWidget = () => {
 
     return (
         <div className="CardWidget">
-        <a className="CardWidget_icono" href="#"> 🛒{counter} </a>
+        <a className="CardWidget_icono" href="/Cart"> 🛒{counter} </a>
         </div>
 )
 }

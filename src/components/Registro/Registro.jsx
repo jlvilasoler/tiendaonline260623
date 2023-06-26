@@ -16,25 +16,36 @@ function SizesExample2() {
         }
     }, [])
     
+
+    const volverhome = () => {
+        window.location.replace("/")
+    }
+
         return (
             <>
     
             <section class="fondo-body">
     
     
-                <section class="contacto">
+                <section class="registro">
                     <div class="container-form">
     
                         <form class="intro-form" action="" method="POST">
     
-                            <h3 class="contactanos"> REGISTRO: </h3>
+                            <h3 class="registrate"> REGISTRO: </h3>
 
 
                                 <label className="label">DOCUMENTO:</label>
                                 <input type="text" placeholder="Ingrese Número de documento" maxLength="10" id="documento" name="documento" class="form-control"></input>
-     
 
+
+
+                                <label className="label">E-MAIL:</label>
+                                <input type="text" placeholder="Ingrese E-mail" maxLength="15" id="email" name="email" class="form-control"></input>
+                         
+                                <div class="form-group">
                                 <hr className="hr"/>
+                            </div>
 
     
 
@@ -164,9 +175,7 @@ function SizesExample2() {
                             </div>
     
                    
-                            <label className="label">E-MAIL:</label>
-                                <input type="text" placeholder="Ingrese E-mail" maxLength="15" id="email" name="email" class="form-control"></input>
-                    
+
     
                         
                             <label className="label">CELULAR:</label>
@@ -177,16 +186,8 @@ function SizesExample2() {
                             <label className="label">TELEFONO:</label>
                                 <input type="text" placeholder="Ingrese Número de Teléfono" id="telefono" name="telefono" class="form-control"></input>
                
-    
-    
-                            <div class="form-group">
-                                <hr className="hr"/>
-                            </div>
-    
-            
-                                <label className="label" for="mensaje">DEJA TU MENSAJE:</label>
-                                <textarea name="mensaje" class="form-control" id="" cols="30" rows="10" placeholder="Deja tu mensaje"></textarea>
-            
+
+
                         </form>
     
     
@@ -195,9 +196,9 @@ function SizesExample2() {
                     </div>
 
 
-                    <div class="bot">
+                    <div class="botones-registro">
                             <button type="submit" className="boton-form-confirmar"> Confirmar </button>
-                            <button type="submit" className="boton-form-cancelar"> Cancelar </button>
+                            <button onClick={volverhome} type="submit" className="boton-form-cancelar"> Cancelar </button>
                             </div>
                 </section>
                 

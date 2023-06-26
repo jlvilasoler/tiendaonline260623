@@ -4,6 +4,7 @@ import ItemList from "../ItemList/ItemList";
 import { useState, useEffect } from 'react';
 import { getData } from "../Helpers/GetData"
 import { useParams } from 'react-router-dom';
+import { useSearchParams } from 'react-router-dom'; 
 
 
 
@@ -12,6 +13,9 @@ const ItemListContainer = () => {
 
   const [productos, setProductos] = useState([])
   const [loading, setLoading] = useState(true)
+  const [searchParams] = useSearchParams()
+  
+  const search = searchParams.get("search")
 
   const { categoryId } = useParams()
 
@@ -31,11 +35,16 @@ const ItemListContainer = () => {
       .finally(() => setLoading(false))
   }, [categoryId])
 
+  const listado = search
+              ? productos.filter((producto) => producto.articulo.includes(search))
+              : productos
+
+
     return (
     <div className="container">
       
       {
-        loading? <h3>Cargando...</h3> : <ItemList items={productos}/>
+        loading? <h3>Cargando...</h3> : <ItemList items={listado}/>
       }
 
     </div>

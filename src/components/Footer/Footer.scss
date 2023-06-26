@@ -1,13 +1,17 @@
-/* FOOTER */
+
+
 .footer {
   background-color: rgb(42, 42, 42);
   color: rgba(191, 191, 191, 0.843);
   height: 230px;
   color: white;
-  font-size: 15px;
+  font-size: 13px;
   display: flex;
   flex-direction: column;
-  padding-top: 20px;
+  margin-top: auto;
+  padding-top: 40px;
+
+  
 
   .footer_botones {
     color: rgba(191, 191, 191, 0.843);
@@ -28,6 +32,6 @@
       color: #ffffff;
       font-size: 10px;
       text-align: right;
-      margin: 40px;
+      margin: 10px;
       background-color: rgb(42, 42, 42);
     }

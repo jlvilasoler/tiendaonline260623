@@ -4,6 +4,8 @@ import { Link } from "react-router-dom"
 const Footer = () => {
 
     return (
+
+
         <footer className="footer">
             
                     <ul><Link className="footer_botones" to="/">INICIO</Link></ul>
@@ -13,6 +15,7 @@ const Footer = () => {
 
                     <p>Todos los derechos reservados. TIENDAONLINE.UY 2023 / Montevideo-Uruguay 🇺🇾</p>
         </footer>
+
     )
 }
 

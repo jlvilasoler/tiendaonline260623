@@ -15,6 +15,8 @@ const ItemDetailContainer = () => {
     console.log(item)
     console.log(itemId)
 
+  
+
   useEffect(() => {
       setLoading(true)    
 

@@ -3,6 +3,7 @@
         color: white;
         font-size: 22px;
 
+
         .CardWidget_icono {
           color:rgb(131, 130, 130);
         }
@@ -11,7 +12,9 @@
       .CardWidget:hover {
         color: #bababa;
         transition: 0.3s;
-        background-color: rgb(115, 56, 11);
+        background-color: rgb(42, 42, 42);
+        border-top: 2px solid rgb(86, 86, 86);
+        border-bottom: 2px solid rgb(86, 86, 86);
         border-radius: solid 10px;
         font-size: 23px;
       }

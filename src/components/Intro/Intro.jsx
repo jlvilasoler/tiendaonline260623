@@ -6,7 +6,7 @@ const Intro = ({mensaje}) => {
         <div className="introduccion">
                 {/*<h1> Bienvenidos a tiendaonline.uy </h1>*/}
                 {/*<p>{mensaje}</p>*/}
-                <hr/>
+
         </div>
     )}
 

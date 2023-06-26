@@ -1,9 +1,4 @@
-.intro-form {
-  width: 320px;
-  margin: 0 auto;
-}
-
-.contacto {
+.registro {
   max-width: 35em;
   padding: 1.9em;
   background-color: rgb(42, 42, 42);
@@ -12,9 +7,10 @@
   box-shadow: inset 1px 1px 1px 1px;
   color: #ffffff;
   margin: 50px auto;
+  height: 1300px;
 }
 
-.contactanos {
+.registrate {
   background-color: rgb(42, 42, 42);
   text-align: center;
   padding: 20px;
@@ -23,9 +19,9 @@
   padding-top: 30px;
 }
 
-.contacto .container-form {
+.registro .container-form {
   background-color: rgb(42, 42, 42);
-  height: 1450px;
+  height: 1000px;
 }
 
 .bot {
@@ -70,4 +66,9 @@
   background-color: #b8b8b8;
   color: rgb(0, 0, 0);
   border-color: #707070;
+}
+
+.botones-registro {
+  padding-left: 150px;
+  padding-top: 180px;
 }/*# sourceMappingURL=Registro.css.map */

@@ -13,6 +13,8 @@ import { BrowserRouter , Routes , Route, Navigate} from "react-router-dom";
 import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer";
 import Categorias from "./components/Categorias/Categorias"
 import Nosotros from "./components/Nosotros/Nosotros"
+import Cart from "./components/Cart/Cart"
+
 
 
 
@@ -40,6 +42,7 @@ const clickear = () => console.log()
         <Route path="/MenuInicio" element={<MenuInicio />}/>
         <Route path="/Registro" element={<Registro />}/>
         <Route path="/Nosotros" element={<Nosotros />}/>
+        <Route path="/Cart" element={<Cart />}/>
         <Route path="*" element={ <Navigate to={"/"} />}/>
 
       </Routes>
