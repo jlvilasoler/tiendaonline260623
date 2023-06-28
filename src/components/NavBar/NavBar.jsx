@@ -1,4 +1,4 @@
-import "/src/components/NavBar/NavBar.scss"
+import "../NavBar/NavBar.scss"
 import CardWidget from "../CardWidget/CardWidget"
 import { Link } from "react-router-dom"
 import Buscador from "../Buscador/Buscador"
