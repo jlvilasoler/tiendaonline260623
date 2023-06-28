@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
-import Intro from "./components/Intro/Intro";
 import Contacto from "./components/Contacto/Contacto";
 import Registro from "./components/Registro/Registro";
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
