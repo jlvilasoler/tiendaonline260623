@@ -6,8 +6,6 @@ import Contacto from "./components/Contacto/Contacto";
 import Registro from "./components/Registro/Registro";
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 import "./App.css";
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
 import MenuInicio from "./components/MenuInicio/MenuInicio";
 import { BrowserRouter , Routes , Route, Navigate} from "react-router-dom";
 import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer";
