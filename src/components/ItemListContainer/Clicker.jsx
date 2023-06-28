@@ -1,7 +1,5 @@
 import { useEffect, useState } from "react"
 import "/src/components/ItemListContainer/Clicker.scss"
-import { toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
 
 export const Clicker = ( {init=0 ,step=1}) => {
     const [counter, setCounter] = useState( Number(localStorage.getItem("init")) || init)
